@@ -1,18 +1,20 @@
 {
-  "name": "React-contact-filter",
+  "name": "firstReactPrjct",
   "version": "0.0.0",
-  "description": "application with react for displaying contacts and filtering them with search box using React arrays and filter",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chandu87/React-contact-filter.git"
-  },
   "author": "",
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/chandu87/React-contact-filter/issues"
+  "devDependencies":{
+  	"babel-core": "^5.8.*",
+  	"babel-loader":"5.3.*",
+  	"webpack":"^1.12.*",
+  	"webpack-dev-server":"^1.10.*"
+  },
+  "dependencies":{
+  	"react":"^0.13.*"
   }
 }
